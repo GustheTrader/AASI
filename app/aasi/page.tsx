@@ -52,6 +52,14 @@ export default function AasiAboutPage() {
           <div className="aasi-triad"><span>Transparency</span><i>•</i><span>Accountability</span><i>•</i><span>Value</span></div>
         </div>
 
+        <div className="aasi-world-map" aria-hidden="true">
+          <div className="globe-shell">
+            <div className="globe-land" />
+            <span className="globe-lat lat-one" /><span className="globe-lat lat-two" /><span className="globe-lat lat-three" />
+            <span className="globe-long long-one" /><span className="globe-long long-two" />
+          </div>
+        </div>
+
         <div className="audit-visual" aria-label="Animated marketing spend audit visualization">
           <div className="audit-orbit orbit-large"><span className="audit-node n1" /></div>
           <div className="audit-orbit orbit-mid"><span className="audit-node n2" /></div>
