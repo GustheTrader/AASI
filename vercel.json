@@ -3,5 +3,5 @@
   "framework": "nextjs",
   "buildCommand": "npm run build:vercel",
   "devCommand": "npm run dev:vercel",
-  "installCommand": "npm ci"
+  "installCommand": "npm install --no-package-lock"
 }
